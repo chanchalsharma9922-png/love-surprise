@@ -1,0 +1,69 @@
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(to bottom,#ff99cc,#ff3366);
+overflow-x:hidden;
+text-align:center;
+color:white;
+}
+
+.glow-text{
+position:fixed;
+top:40%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:80px;
+opacity:0.08;
+text-shadow:0 0 20px red,0 0 40px pink;
+}
+
+.center-box{
+margin-top:100px;
+background:rgba(255,255,255,0.1);
+padding:30px;
+border-radius:20px;
+box-shadow:0 0 30px rgba(255,0,0,0.5);
+display:inline-block;
+}
+
+button{
+padding:12px 20px;
+margin:10px;
+border:none;
+border-radius:25px;
+background:#ff0066;
+color:white;
+font-size:16px;
+cursor:pointer;
+box-shadow:0 0 15px pink;
+}
+
+button:hover{
+background:#ff3399;
+}
+
+input{
+padding:10px;
+border-radius:20px;
+border:none;
+}
+
+.rose{
+position:fixed;
+top:-50px;
+font-size:30px;
+animation:fall linear infinite;
+}
+
+@keyframes fall{
+to{transform:translateY(110vh);}
+}
+
+.gallery img{
+width:150px;
+margin:10px;
+border-radius:20px;
+box-shadow:0 0 20px white;
+}
+
+.hidden{display:none;}
